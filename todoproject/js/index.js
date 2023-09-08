@@ -195,8 +195,3 @@ const storedDarkMode = localStorage.getItem("darkMode");
 if (storedDarkMode === "true") {
   document.body.classList.add("nightMood");
 }
-
-// let toggleDarkMode = document.getElementById("toggleDarkMode");
-// toggleDarkMode.addEventListener("click", () => {
-//   document.body.classList.toggle("nightMood");
-// });
